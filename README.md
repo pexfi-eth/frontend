@@ -13,7 +13,6 @@
 7. [Launch Strategy](#7-launch-strategy)  
 8. [Roadmap](#8-roadmap--community-governance)  
 9. [Fraud Mitigation](#9-fraud-mitigation)  
-10. [Team & Status](#10-team--status)  
 
 ---
 
@@ -224,7 +223,7 @@ The Treasury accumulates PEXFI fees and allocates them for:
 
 2. **Seller Non‑Release**  
    - *Vector*: Seller holds crypto after fiat.  
-   - *Mitigation*: On‑chain escrow; arbitrator enforcement; slashing.
+   - *Mitigation*: On‑chain escrow; arbitrator enforcement.
 
 3. **Arbitrator Collusion**  
    - *Vector*: Bribery or bias.  
