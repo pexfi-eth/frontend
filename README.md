@@ -13,6 +13,7 @@
 7. [Launch Strategy](#7-launch-strategy)  
 8. [Roadmap](#8-roadmap--community-governance)  
 9. [Fraud Mitigation](#9-fraud-mitigation)  
+10. Legal & Compliance
 
 ---
 
@@ -244,3 +245,37 @@ The Treasury accumulates PEXFI fees and allocates them for:
 7. **Sybil Attacks**  
    - *Vector*: Multiple wallets farming airdrops/reputation.  
    - *Mitigation*: Volume‑based and time‑weighted reputation; graph‑analysis detection.
+
+---
+
+## 10. Legal & Compliance
+
+PEXFI is designed as open-source, non-custodial software enabling peer-to-peer value exchange. It does not act as a broker, exchange, custodian, or financial intermediary.
+
+### Key Legal Principles
+
+- **Software, Not a Service**  
+  PEXFI provides decentralized smart contracts that users interact with directly. There is no central operator or hosted service acting as an intermediary.
+
+- **User Responsibility**  
+  Users are fully responsible for complying with local laws, including regulations around money transmission, taxation, and fiat payments. PEXFI collects no user data and cannot monitor usage.
+
+- **No Custody or Intermediation**  
+  At no point does PEXFI or its developer(s) hold user funds. All trades are locked and released through permissionless smart contracts with user signatures and/or arbitrator votes.
+
+- **No KYC, No Data Retention**  
+  PEXFI never collects or stores personal data, removing liability and attack vectors associated with sensitive information.
+
+- **DAO Transition Considerations**  
+  As governance decentralizes, the DAO may choose to publish jurisdictional guidelines, disclaimers, or risk disclosures tailored to each region, but the core platform remains non-custodial code.
+
+### Compliance Strategy
+
+- **Modular Architecture**  
+  Developers, wallets, and community contributors are free to build tools or interfaces that align with local regulations — without affecting the neutrality of the protocol.
+
+- **No Fiat Handling**  
+  Fiat payment arrangements occur entirely off-chain between peers, outside the scope of the protocol. The platform does not facilitate, process, or custody fiat.
+
+- **Legal Jurisdiction**  
+  The project maintains no corporate entity at this time. If one is formed (e.g., for grants or coordination), it will be based in a jurisdiction with favorable treatment of open-source and DAO-governed protocols.
