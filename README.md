@@ -23,7 +23,9 @@ Today’s crypto trading happens on centralized exchanges (CEXes). These platfor
 
 **PEXFI exists to fix that.**
 
-It’s a decentralized, peer‑to‑peer crypto‑to‑fiat marketplace where users trade directly with each other. No company holds your funds, no KYC is required, and open‑source smart contract escrows protect every trade. You stay in control of your keys, your privacy, and your value.
+It’s a decentralized, peer-to-peer crypto-to-fiat marketplace where users trade directly with each other. No company holds your funds, no KYC is required, and smart contract escrows protect every trade. You stay in control of your keys and your privacy.
+
+PEXFI brings crypto back to its original purpose — open, censorship-resistant, and truly peer-to-peer.
 
 ---
 
