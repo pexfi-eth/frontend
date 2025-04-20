@@ -19,7 +19,7 @@
 
 ## 1. Overview & Vision
 
-Most of today’s crypto trading happens on centralized exchanges (CEXes). These platforms act like traditional banks — freezing accounts, demanding sensitive documents, blocking users by country, and enforcing heavy regulations. They control who can access crypto and when, turning a borderless tool into a gated system.
+Today’s crypto trading happens on centralized exchanges (CEXes). These platforms act like traditional banks — freezing accounts, demanding sensitive documents, blocking users by country, and enforcing heavy regulations. They control who can access crypto and when, turning a borderless tool into a gated system.
 
 **PEXFI exists to fix that.**
 
@@ -45,16 +45,9 @@ The peer‑to‑peer crypto trading market shows strong demand, especially in re
   Southeast Asia & Africa focus. Custodial dispute resolution.  
   *Volume (2018):* ~$3 B/year *Revenue:* Undisclosed  
 
-- **Binance P2P**  
-  Requires full KYC, custodial. High volume but not standalone.  
-
 - **Noones**  
   Custodial P2P platform. Suffered a $7.9 M hack in 2025 via Solana‑bridge exploit.  
   *Takeaway:* Partial decentralization can still be exploited.  
-
-- **AgoraDesk**  
-  Chat‑based custodial bot on Telegram/web. Regional KYC varies.  
-  *Volume & Revenue:* Not public.  
 
 - **RoboSats**  
   Bitcoin/Lightning P2P via Tor. No KYC.  
@@ -72,7 +65,7 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
 
 ## 3. Core Philosophy
 
-- **Non‑Custodial**: You always hold your funds; smart contracts only.  
+- **Non‑Custodial**: You always hold your funds; smart contracts only escrow a trade amount.  
 - **Censorship‑Resistant**: Entirely on‑chain, no central server to seize or shut down.  
 - **Privacy‑First**: No data collection, no KYC — wallet addresses only.  
 - **Open‑Source**: All code verifiable on‑chain and via public repos.  
@@ -81,7 +74,7 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
 
 ## 4. Key Features
 
-- **Multisig Escrow Smart Contract**  
+- **Escrow Smart Contract**  
   Open‑source escrow that locks crypto until both sides confirm. Arbitrators can only approve or revert — never withdraw funds.
 
 - **Reputation NFT**  
@@ -90,7 +83,7 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
 - **KYC‑Free Trading**  
   Connect your wallet, agree on payment, and trade — no identity checks required.
 
-- **IPFS Frontend (Roadmap)**  
+- **IPFS Frontend**  
   Decentralized hosting for complete censorship resistance.
 
 ---
@@ -104,7 +97,7 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
   Calculated using the current PEXFI/USDT pool price.
 
 - **Automatic Conversion**  
-  If fees are paid in other tokens, the platform swaps them into PEXFI on a DEX, creating consistent buy pressure.
+  If fees are paid in other tokens, the platform swaps them into PEXFI on a DEX, creating **consistent buy pressure**.
 
 - **Fee Destination**  
   100% of fees (paid or converted) flow into the **Treasury** contract in PEXFI.
@@ -116,8 +109,6 @@ The Treasury accumulates PEXFI fees and allocates them for:
 - **StakerRewards (50%)** — for arbitration/staking payouts  
 - **ProtocolFund (40%)** — development, marketing, integrations  
 - **OperationsFund (10%)** — audits, support, infrastructure  
-
-Each pool is claimable via on‑chain functions (`claimStakerRewards()`, `claimProtocolFund()`, `claimOperationsFund()`).
 
 ### Utility
 
