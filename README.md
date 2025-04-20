@@ -13,10 +13,9 @@
 7. [Launch Strategy](#7-launch-strategy)  
 8. [Roadmap](#8-roadmap--community-governance)  
 9. [Fraud Mitigation](#9-fraud-mitigation)  
-10. Legal & Compliance
+10. [Legal & Compliance](#10-legal--compliance)
 
 ---
-
 ## 1. Overview & Vision
 
 Today’s crypto trading happens on centralized exchanges (CEXes). These platforms act like traditional banks — freezing accounts, demanding sensitive documents, blocking users by country, and enforcing heavy regulations. They control who can access crypto and when, turning a borderless tool into a gated system.
