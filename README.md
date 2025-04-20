@@ -171,7 +171,7 @@ The Treasury accumulates PEXFI fees and allocates them for:
 #### Whitelist Presale Model
 - Private, invite-based presale to whitelist addresses.
 - A small raise is planned.
-- **50% of presale funds** will be used to bootstrap the initial liquidity pool (PEXFI/USDC) on Uniswap.
+- **50% of presale funds** will be used to bootstrap the initial liquidity pool (PEXFI/ETH) on Uniswap.
 - PEXFI is initially paired with USDC to provide stable price discovery.
 - Early buyers benefit from upward price movement as platform volume creates organic token demand.
 
