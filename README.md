@@ -1,43 +1,216 @@
-Summary
-=======
+# PEXFI Project Description
 
-[Live Arbitrum Sepolia Demo](https://marketdapp.github.io)
+## Table of Contents
+1. [Overview & Vision](#1-overview--vision)  
+2. [Market Research](#2-market-research)  
+3. [Core Philosophy](#3-core-philosophy)  
+4. [Key Features](#4-key-features)  
+5. [Tokenomics](#5-tokenomics)  
+   - [Fee Model](#fee-model)  
+   - [Treasury](#treasury)  
+   - [Utility](#utility)  
+6. [Security & Trust Model](#6-security--trust-model)  
+7. [Launch Strategy](#7-launch-strategy)  
+8. [Roadmap & Community Governance](#8-roadmap--community-governance)  
+9. [Fraud Mitigation](#9-fraud-mitigation)  
+10. [Team & Status](#10-team--status)  
 
-The platform enables users to trade ERC20 tokens on EVM-compatible chains, operating fully on-chain.  
-With the adoption of L2 networks like Arbitrum, it's now possible to run entire websites on-chain.
+---
 
-This is a non-custodial platform — we do not hold any funds or tokens.  
-Mediators involved in dispute resolution can only direct tokens to one of the trade participants.
+## 1. Overview & Vision
 
-Motivation
-==========
+Most of today’s crypto trading happens on centralized exchanges (CEXes). These platforms act like traditional banks — freezing accounts, demanding sensitive documents, blocking users by country, and enforcing heavy regulations. They control who can access crypto and when, turning a borderless tool into a gated system.
 
-As of mid-2024 there are no exchanges allowing users to trade ERC20 tokens for fiat peer-to-peer in non-custodial manner.  
-Existing solutions are CEX'es who provide custody of user's funds and hence obliged to comply with financial regulations.  
-Such tendency makes crypto centralized, subject to censorship and reliance on a trusted accounts manager, very similar to traditional banking, if not say the same.  
-Having your crypto on a CEX is contrary to the original idea of peer-to-peer cash as described by Satoshi Nakamoto.
+**PEXFI exists to fix that.**
 
-This project is an attempt to provide users an easy to use interface to publish their own smart contracts on-chain so that others can transact with them using local fiat currency.  
-Mediation of disputes is at the moment is done by project admins. In the next stage a proof-of-stake protocol will be implemented to further decentralize the platform and let users to choose their mediators from a pool of mediators who are financially incentivized to behave fairly.
+It’s a decentralized, peer‑to‑peer crypto‑to‑fiat marketplace where users trade directly with each other. No company holds your funds, no KYC is required, and open‑source smart contract escrows protect every trade. You stay in control of your keys, your privacy, and your value.
 
-The ultimate goal is to provide a secure decentralized way to ensure trades are completed and buyers and sellers can find each other.  
-As this is non-custodial solution we do not touch money in any way, therefore not subject to mandatory KYC/AML screening of our users.  
-Tokens are escrowed in user's contract and mediators are only able to send it to either direction and not elsewhere.
+---
 
-Features
-========
+## 2. Market Research
 
-- Creation of buy or sell offers as smart contracts, listed by token, fiat currency, and payment method.
-- Dispute mediation.
-- Fully on-chain messaging.
-- Reputation system for traders. (It's NFT!)
+The peer‑to‑peer crypto trading market shows strong demand, especially in regions with limited banking access or high remittance needs. Legacy and custodial platforms have captured this demand but carry significant downsides.
 
-Call to Action
-==============
+### Legacy & Centralized Competitors
 
-Our platform is still in development, and there's much more to achieve. Our current milestones are:
+- **LocalBitcoins**  
+  Custodial with strict KYC. Shut down in 2023 under regulatory pressure.  
+  *Peak Volume:* ~$2 B/year *Revenue:* ~$25 M/year  
 
-1. Professional design for the client-side React app.
-2. Security audit for the smart contracts, with plans to publish them as open-source.
-3. On-chain encryption for messaging.
-4. Facilitating regulatory compliance (KYC) for traders, if requested.
+- **Paxful**  
+  Global reach but custodial escrow. Suspended operations in 2023 due to compliance challenges.  
+  *Volume:* ~$1.6 B/year *Revenue:* ~$15–20 M/year  
+
+- **Remitano**  
+  Southeast Asia & Africa focus. Custodial dispute resolution.  
+  *Volume (2018):* ~$3 B/year *Revenue:* Undisclosed  
+
+- **Binance P2P**  
+  Requires full KYC, custodial. High volume but not standalone.  
+
+- **Noones**  
+  Custodial P2P platform. Suffered a $7.9 M hack in 2025 via Solana‑bridge exploit.  
+  *Takeaway:* Partial decentralization can still be exploited.  
+
+- **AgoraDesk**  
+  Chat‑based custodial bot on Telegram/web. Regional KYC varies.  
+  *Volume & Revenue:* Not public.  
+
+- **RoboSats**  
+  Bitcoin/Lightning P2P via Tor. No KYC.  
+  *Weaknesses:* Bitcoin‑only, technical UX hurdle, no fiat dispute mediation.  
+
+- **Bisq**  
+  Desktop‑only, multichain P2P. Uses bonded arbitrators.  
+  *Weaknesses:* Complex UX, slow trades, limited fiat options.  
+
+### Opportunity for PEXFI
+
+Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully non‑custodial, open‑source, no‑KYC model fills the gap for censorship‑resistant, privacy‑focused fiat ramps.
+
+---
+
+## 3. Core Philosophy
+
+- **Non‑Custodial**: You always hold your funds; smart contracts only.  
+- **Censorship‑Resistant**: Entirely on‑chain, no central server to seize or shut down.  
+- **Privacy‑First**: No data collection, no KYC — wallet addresses only.  
+- **Open‑Source**: All code verifiable on‑chain and via public repos.  
+
+---
+
+## 4. Key Features
+
+- **Multisig Escrow Smart Contract**  
+  Open‑source escrow that locks crypto until both sides confirm. Arbitrators can only approve or revert — never withdraw funds.
+
+- **Reputation NFT**  
+  Free, non‑transferable NFT per wallet tracks trade volume, completion rate, and disputes, helping peers assess trustworthiness.
+
+- **KYC‑Free Trading**  
+  Connect your wallet, agree on payment, and trade — no identity checks required.
+
+- **IPFS Frontend (Roadmap)**  
+  Decentralized hosting for complete censorship resistance.
+
+---
+
+## 5. Tokenomics
+
+### Fee Model
+
+- **PEXFI Fee Discount**  
+  Pay **0.25% per side** (maker/taker) when using PEXFI — a 50% discount from the standard 0.5% fee.  
+  Calculated using the current PEXFI/USDT pool price.
+
+- **Automatic Conversion**  
+  If fees are paid in other tokens, the platform swaps them into PEXFI on a DEX, creating consistent buy pressure.
+
+- **Fee Destination**  
+  100% of fees (paid or converted) flow into the **Treasury** contract in PEXFI.
+
+### Treasury
+
+The Treasury accumulates PEXFI fees and allocates them for:
+
+- **StakerRewards (50%)** — for arbitration/staking payouts  
+- **ProtocolFund (40%)** — development, marketing, integrations  
+- **OperationsFund (10%)** — audits, support, infrastructure  
+
+Each pool is claimable via on‑chain functions (`claimStakerRewards()`, `claimProtocolFund()`, `claimOperationsFund()`).
+
+### Utility
+
+- **Trade Fee Discount**  
+  Save on every trade using PEXFI.
+
+- **Market Demand**  
+  Fee conversion drives token buy pressure as volume grows.
+
+- **Speculation**  
+  Fixed supply, deflationary slashing burns, and growing utility attract holders.
+
+- **NFT Badges**  
+  Earn or purchase badge NFTs for your profile. Badges influence your ranking and visibility in trade catalogs, rewarding engagement and trust.
+
+---
+
+## 6. Security & Trust Model
+
+- **Open Source Code**  
+  All smart contracts and frontend are verifiable on‑chain.
+
+- **Non‑Custodial**  
+  No third‑party holds funds; only you and the escrow contract.
+
+- **Manual Arbitrator Approval (Initial)**  
+  Arbitrators are currently vetted and signed manually by the team for quality control.
+
+- **No Data Collection**  
+  No PII or metadata stored off‑chain; nothing to leak.
+
+- **Multi‑layer Access**  
+  Frontend on IPFS; fallback via Etherscan or local copies if blocked.
+
+---
+
+## 7. Launch Strategy
+
+1. **Token Generation Event**  
+   - Fixed supply minted; PEXFI‑only Uniswap pool seeded.  
+   - Price set by user‑bonded USDT.
+
+2. **Targeted Airdrop**  
+   - Early testers, privacy advocates, defunct‑platform users.
+
+3. **Incentivized Trading**  
+   - Referral & rebate programs paid in PEXFI.
+
+4. **Organic Growth**  
+   - Community engagement, wallet integrations, regional ambassadors.
+
+---
+
+## 8. Roadmap & Community Governance
+
+### Community Arbitrator Design
+
+- **Current**: Arbitrators signed manually by the team.  
+- **Goal**: Securely decentralize selection and training.  
+
+**Community Input Needed On:**
+- **Selection Mechanisms**: DAO‑based staking, on‑chain elections, reputation gating.  
+- **Slashing & Appeals**: How to structure stake slashing and dispute appeals via governance.  
+- **Education**: Certification/training modules for arbitrators on various fiat payment systems.  
+
+---
+
+## 9. Fraud Mitigation
+
+1. **Payment Fraud**  
+   - *Vector*: Fake or reversible payments.  
+   - *Mitigation*: Encourage irreversible methods; arbitrator evidence review; reputation filtering.
+
+2. **Seller Non‑Release**  
+   - *Vector*: Seller holds crypto after fiat.  
+   - *Mitigation*: On‑chain escrow; arbitrator enforcement; slashing.
+
+3. **Arbitrator Collusion**  
+   - *Vector*: Bribery or bias.  
+   - *Mitigation*: Manual vetting (initial), future DAO slashing; multi‑arbitrator consensus.
+
+4. **Identity Impersonation**  
+   - *Vector*: Off‑platform scams.  
+   - *Mitigation*: Wallet‑only trades; in‑app messaging only; on‑chain reputation NFTs.
+
+5. **Front‑Running**  
+   - *Vector*: Observing & re‑submitting orders.  
+   - *Mitigation*: Optional commit‑reveal; hidden offer details.
+
+6. **Spam/DoS**  
+   - *Vector*: Fake trades, message floods.  
+   - *Mitigation*: Small refundable fee to post; rate limits; reputation gating.
+
+7. **Sybil Attacks**  
+   - *Vector*: Multiple wallets farming airdrops/reputation.  
+   - *Mitigation*: Volume‑based and time‑weighted reputation; graph‑analysis detection.
