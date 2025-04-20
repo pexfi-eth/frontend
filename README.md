@@ -92,6 +92,27 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
 
 ## 5. Tokenomics
 
+### Initial Supply
+
+- **Total Supply:** 100,000,000 PEXFI (fixed)
+
+### Distribution
+
+- **Liquidity Pools:** 50%  
+  Used to create initial and future decentralized exchange (DEX) pools for trading.
+
+- **Reserve:** 20%  
+  Held for future development, ecosystem growth, and unexpected opportunities. Locked for 12 months.
+
+- **Team:** 15%  
+  Vesting over 24 months with a 6-month cliff to align long-term incentives.
+
+- **Pre-sale:** 10%  
+  Small private pre-sale intended to seed the first liquidity pool and bootstrap community. Locked at listing price.
+
+- **Airdrops & Incentives:** 5%  
+  Distributed to early users and contributors to incentivize adoption.
+
 ### Fee Model
 
 - **PEXFI Fee Discount**  
