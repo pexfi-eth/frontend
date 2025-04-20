@@ -11,7 +11,7 @@
    - [Utility](#utility)  
 6. [Security & Trust Model](#6-security--trust-model)  
 7. [Launch Strategy](#7-launch-strategy)  
-8. [Roadmap & Community Governance](#8-roadmap--community-governance)  
+8. [Roadmap](#8-roadmap--community-governance)  
 9. [Fraud Mitigation](#9-fraud-mitigation)  
 10. [Team & Status](#10-team--status)  
 
@@ -185,17 +185,34 @@ The Treasury accumulates PEXFI fees and allocates them for:
 
 ---
 
-## 8. Roadmap & Community Governance
+## 8. Roadmap
 
-### Community Arbitrator Design
+### Q2 2025 – Foundation & Launch
+- Finalize project documentation and tokenomics
+- Launch PEXFI token presale with whitelist mechanism
+- Bootstrap initial liquidity pool on Uniswap (PEXFI/ETH)
+- Deploy mainnet contracts and switch frontend to production
+- Begin community onboarding and initial marketing push
 
-- **Current**: Arbitrators signed manually by the team.  
-- **Goal**: Securely decentralize selection and training.  
+### Q3 2025 – Growth & Adoption
+- Integrate more fiat payment systems
+- Launch ambassador and affiliate programs
+- Begin badge-based NFT reputation incentives
+- Partner with fiat payment platforms and local agents
+- First post-launch feature upgrades and UI polish
 
-**Community Input Needed On:**
-- **Selection Mechanisms**: DAO‑based staking, on‑chain elections, reputation gating.  
-- **Slashing & Appeals**: How to structure stake slashing and dispute appeals via governance.  
-- **Education**: Certification/training modules for arbitrators on various fiat payment systems.  
+### Q4 2025 – Expansion & Utility
+- List PEXFI on additional DEXs and aggregators
+- Launch staking and arbitrator selection mechanisms
+- Expand arbitrator pool through manual review
+- Launch analytics and user tools
+- Expand support to additional networks and L2s
+
+### 2026 – Decentralization & Scale
+- Gradually introduce decentralized arbitrator nomination process with staking-based oversight
+- Research and possibly implement DAO governance around dispute resolution and badge criteria
+- Explore fiat off-ramp expansion to underserved regions
+- Continuous iteration based on user and community feedback
 
 ---
 
