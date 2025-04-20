@@ -151,20 +151,21 @@ The Treasury accumulates PEXFI fees and allocates them for:
 
 ## 6. Security & Trust Model
 
-- **Open Source Code**  
-  All smart contracts and frontend are verifiable on‑chain.
+- **Open Source & Auditable**  
+  All smart contracts and frontend are publicly verifiable.
 
 - **Non‑Custodial**  
-  No third‑party holds funds; only you and the escrow contract.
+  Users hold their own funds at all times.
 
-- **Manual Arbitrator Approval (Initial)**  
-  Arbitrators are currently vetted and signed manually by the team for quality control.
+- **Dispute Resolution**  
+  A fair process is in place to help resolve stuck or problematic trades.
 
-- **No Data Collection**  
-  No PII or metadata stored off‑chain; nothing to leak.
+- **Privacy by Design**  
+  No user data is collected or stored.
 
-- **Multi‑layer Access**  
-  Frontend on IPFS; fallback via Etherscan or local copies if blocked.
+- **Resilient Access**  
+  Interface available via IPFS and fallback options.
+
 
 ---
 
