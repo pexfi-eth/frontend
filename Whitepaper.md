@@ -1,4 +1,4 @@
-# PEXFI Project Description
+# PEXFI crypto-to-fiat marketplace
 
 ## Table of Contents
 1. [Overview & Vision](#1-overview--vision)  
