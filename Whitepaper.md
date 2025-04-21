@@ -1,4 +1,6 @@
-# PEXFI crypto-to-fiat marketplace
+# PEXFI Whitepaper 
+
+A fully decentralized, no-KYC peer-to-peer crypto-fiat marketplace built for privacy, freedom, and trustless trade.
 
 ## Table of Contents
 1. [Overview & Vision](#1-overview--vision)  
