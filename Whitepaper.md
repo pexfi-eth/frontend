@@ -89,7 +89,15 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
 
 - **Custom Trading Interfaces**  
   Traders can build or use any frontend—browser apps, mobile UIs, or scripts—to post and manage offers. Every trade, regardless of the interface, is protected by PEXFI’s escrow contracts and covered by the same dispute resolution process.
+  
+### Incentives & Rewards
 
+- **Fee Refunds for Reviews**  
+  After a successful trade, users who leave feedback receive a partial refund of their trading fee, encouraging transparency and accountability.
+
+- **Badges for Participation**  
+  Users can earn or buy NFT badges that are displayed on their profiles and impact search ranking in the marketplace catalog.
+  
 ---
 
 ## 5. Tokenomics
