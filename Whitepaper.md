@@ -87,6 +87,9 @@ Legacy platforms either shut down, impose KYC, or suffer hacks. PEXFI’s fully 
 - **IPFS Frontend**  
   Decentralized hosting for complete censorship resistance.
 
+- **Custom Trading Interfaces**  
+  Traders can build or use any frontend—browser apps, mobile UIs, or scripts—to post and manage offers. Every trade, regardless of the interface, is protected by PEXFI’s escrow contracts and covered by the same dispute resolution process.
+
 ---
 
 ## 5. Tokenomics
