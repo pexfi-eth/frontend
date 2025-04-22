@@ -228,6 +228,7 @@ The Treasury accumulates PEXFI fees and allocates them for:
 - Research and possibly implement DAO governance around dispute resolution and badge criteria
 - Explore fiat off-ramp expansion to underserved regions
 - Continuous iteration based on user and community feedback
+- Remittance UI: Simple interface for matching cross-border senders and receivers, abstracting away crypto complexity
 
 ---
 
