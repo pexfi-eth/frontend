@@ -155,6 +155,8 @@ The Treasury accumulates PEXFI fees and allocates them for:
   Save on every trade using PEXFI.  
 - **NFT Badges**  
   Earn or purchase badge NFTs for your profile. Badges influence your ranking and visibility in trade catalogs, rewarding engagement and trust.
+
+- **Offers Promotion**: Traders may use PEXFI to promote their ads within the marketplace interface, gaining increased visibility and attracting more counterparties.
   
 - **Market Demand**  
   Fee conversion drives token buy pressure as volume grows.
