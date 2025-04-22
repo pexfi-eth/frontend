@@ -184,7 +184,7 @@ The Treasury accumulates PEXFI fees and allocates them for:
 
 ---
 
-### Launch Strategy
+### 7. Launch Strategy
 
 #### Whitelist Presale Model
 - Private, invite-based presale to whitelist addresses.
